@@ -61,6 +61,16 @@ gemini
 
 Now we have Gemini CLI installed and ready to use on the Cloud Shell!
 
+If you're first time reaching Gemini CLI on cloud shell you need to verify your account. 
+
+You can verify via selecting cloud shell credentials or google account verification.
+
+**Note: If you get an error, you can try reauthenticate your account by running the following command:**
+
+```bash
+gcloud auth login
+``` 
+
 
 ## Deploying Resources via Gemini CLI
 
@@ -106,3 +116,5 @@ To avoid inadvertent charges, (for example, if the Cloud Run services are inadve
 To delete the Cloud Run Services, go to the Cloud Run Cloud Console at  https://console.cloud.google.com/run and delete the all services.
 
 If you choose to delete the entire project, you can go to  [https://console.cloud.google.com/cloud-resource-manager](https://console.cloud.google.com/cloud-resource-manager), select the project you created in Step 2, and choose Delete. If you delete the project, you'll need to change projects in your Cloud SDK. You can view the list of all available projects by running `gcloud projects list`.
+
+
